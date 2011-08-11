@@ -1,0 +1,79 @@
+/* styles.scss */
+/* global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+  font-size: 10px; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+ul li {
+  margin: 0;
+  padding: 0; }
+
+/* variables */
+#application {
+  width: 600px;
+  height: 150px;
+  float: right; }
+  #application .content {
+    overflow: auto;
+    padding: 10px; }
+
+.background {
+  background-color: #000;
+  opacity: 0.4;
+  border-radius: 10px;
+  position: absolute;
+  z-index: -1; }
+
+fieldset label {
+  width: 80px;
+  float: left;
+  text-align: right;
+  font-weight: bold;
+  line-height: 20px; }
+fieldset input {
+  float: right; }
+fieldset p {
+  overflow: auto;
+  margin: 0;
+  margin-bottom: 5px; }
+
+/* logged page */
+.index fieldset {
+  width: 300px;
+  height: 70%;
+  margin: 0 auto; }
+.index .background {
+  width: 600px;
+  height: 150px; }
+
+.loggedIn h1 {
+  font-size: 14px;
+  text-align: right; }
+.loggedIn input {
+  float: right; }
+.loggedIn ul.categories {
+  padding-left: 10px;
+  overflow: auto; }
+  .loggedIn ul.categories li {
+    border-radius: 5px;
+    background-color: #fff;
+    opacity: 0.4;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 4px;
+    height: 20px;
+    width: 100px;
+    float: right; }
+.loggedIn .background {
+  width: 600px;
+  height: 150px; }
+
+#testpage {
+  background-color: #fff; }

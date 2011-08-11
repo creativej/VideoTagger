@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^js/(.*\.js) /videotagger/combine.php?type=javascript&files=$1
+#RewriteRule ^css/(.*\.css) /videotagger/combine.php?type=css&files=$1
+#RewriteRule ^js/(.*\.js) /videotagger/combine.php?type=javascript&files=$1
